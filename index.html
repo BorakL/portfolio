@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Luka Borak" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Luka Borak, Borak Luka"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Luka Borak</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">Luka Borak</span>
+          <span class="site-description">Programmer • Web Developer</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/luka-borak-95a39a1b5/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/BorakL">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <button aria-label="My Resume" target="_blank" id="openPdfBtn">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </button>
+          <a aria-label="Send Email" href="mailto:lborak88@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>My Story</h1> 
+          <img
+            src="./assets/img/jpg/profile.png"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          /> 
+        <p>
+          Experienced web developer proficient in React, JavaScript, and CSS, with a solid foundation in backend technologies like NodeJS, MongoDB, and Express. Currently expanding skills in Next.js and TypeScript. Passionate about creating seamless user experiences and staying ahead in the ever-evolving web development landscape.
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user" id="stacks"></div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Featured Projects</h1>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Luka Borak, 2022</p>
+    </footer>
+
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+
+  </body>
+</html>
