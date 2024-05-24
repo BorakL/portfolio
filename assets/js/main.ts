@@ -20,7 +20,7 @@ interface Stack{
 let projects:Project[] = [
     {
         "title": "EnglishConversations",
-        "image": "EnglishConversations",
+        "image": "englishConversations",
         "tools": ["React","CSS","Node.js","MongoDB"],
         "description": "Start learning, practicing, and testing your English language skills through interactive conversations. Choose a topic and dive into the world of English conversation.",
         "link": "https://english-conversations.vercel.app/",
@@ -28,7 +28,7 @@ let projects:Project[] = [
     },
     {
         "title": "MyFitness",
-        "image": "MyFitness",
+        "image": "myFitness",
         "tools": ["React", "Node.js", "MongoDB", "CSS"],
         "description": "This is an app about fitness that allows you to choose from a variety of workouts and exercises to create a personalized fitness plan that fits your lifestyle and goals.",
         "link": "https://my-fitness-eight.vercel.app/",
@@ -36,7 +36,7 @@ let projects:Project[] = [
     },
     {
     	"title": "FruitSmoothies",
-	    "image": "FruitSmoothies",
+	    "image": "fruitSmoothies",
 	    "tools": ["React","PHP","SQL","CSS"],
 	    "description": "Choose from a variety of delicious smoothie recipes that are easy to make and packed with nutrients.",
     	"link": "http://fruitsmoothies.epizy.com",
@@ -44,7 +44,7 @@ let projects:Project[] = [
     },
     {
         "title": "Games",
-        "image": "Games",
+        "image": "games",
         "tools": ["React","CSS"],
         "description": "Choose from three different games that will test your skills and keep you entertained for hours.",
         "link": "https://borakl.github.io/games/",
