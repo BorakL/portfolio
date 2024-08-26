@@ -43,7 +43,7 @@ const stacks = [
     },
     {
         type: "Back-End",
-        technologies: ["Node.js", "Express", "MongoDB"]
+        technologies: ["Node.js", "Express", "MongoDB", "PHP"]
     },
     {
         type: "Tools",
