@@ -34,6 +34,14 @@ let projects = [
         "description": "Choose from three different games that will test your skills and keep you entertained for hours.",
         "link": "https://borakl.github.io/games/",
         "githubLink": "https://github.com/BorakL/games"
+    },
+    {
+        "title": "FrostFrigo",
+        "image": "frostFrigo",
+        "tools": ["Next.js", "Typescript", "CSS", "Bootstrap"],
+        "description": "A responsive Next.js web application integrated with Firebase for authentication and data management, featuring separate admin and client interfaces for scheduling and user management.",
+        "link": "https://frost-figo.netlify.app/",
+        "githubLink": "https://github.com/BorakL/frost-frigo"
     }
 ];
 const stacks = [
@@ -43,7 +51,7 @@ const stacks = [
     },
     {
         type: "Back-End",
-        technologies: ["Node.js", "Express", "MongoDB", "PHP"]
+        technologies: ["Node.js", "Express", "MongoDB"]
     },
     {
         type: "Tools",
